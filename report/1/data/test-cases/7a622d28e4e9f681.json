@@ -1,0 +1,110 @@
+{
+  "uid" : "7a622d28e4e9f681",
+  "name" : "test_mul[get_mul_datas0]",
+  "fullName" : "pytest_calc.TestCalc#test_mul",
+  "historyId" : "3de93696ba462e569090d67a4c529380",
+  "time" : {
+    "start" : 1614321518181,
+    "stop" : 1614321518181,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 1 == 2",
+  "statusTrace" : "slef = <pytest_test.pytest_shizhan.pytest_calc.TestCalc object at 0x0000024890CF9BB0>, init_calc = <pytest_test.pytest_shizhan.python_code.daic.Calculator object at 0x0000024890C81EE0>\nget_mul_datas = [1, 1, 2]\n\n    @pytest.mark.run(ordder=3)\n    def test_mul(slef, init_calc, get_mul_datas):\n        result = init_calc.mul(get_mul_datas[0], get_mul_datas[1])\n        expect = get_mul_datas[2]\n>       assert result == expect\nE       assert 1 == 2\n\npytest_calc.py:51: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "init_calc",
+    "time" : {
+      "start" : 1614321517927,
+      "stop" : 1614321517928,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "get_mul_datas",
+    "time" : {
+      "start" : 1614321518181,
+      "stop" : 1614321518181,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "init_calc::0",
+    "time" : {
+      "start" : 1614321518232,
+      "stop" : 1614321518233,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "run(ordder=3)"
+  }, {
+    "name" : "suite",
+    "value" : "pytest_calc"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCalc"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-3I6ADUJA"
+  }, {
+    "name" : "thread",
+    "value" : "1128-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "pytest_calc"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "get_mul_datas",
+    "value" : "[1, 1, 2]"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "run(ordder=3)" ]
+  },
+  "source" : "7a622d28e4e9f681.json",
+  "parameterValues" : [ "[1, 1, 2]" ]
+}
